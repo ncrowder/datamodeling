@@ -22,7 +22,7 @@
 <p>Return all orders with <code>Status = 'Shipped'</code>, sorted by <code>OrderDate</code> from newest to oldest.</p>
 </li>
 <li>
-<p>Return customers who signed up in <strong>2025</strong>.</p>
+<p>Return customers who signed up in <strong>2024</strong>.</p>
 </li>
 <li>
 <p>Return orders where <code>ShipState</code> is <strong>WI or IL</strong>.</p>
@@ -96,14 +96,14 @@
 <p>From <code>dbo.OrderItems</code>, return <code>ProductID</code> and the total quantity ordered, including only products with total quantity <strong>greater than or equal to 3</strong>.</p>
 </li>
 <li>
-<p>From <code>dbo.Orders</code>, return <code>CustomerID</code> and the total number of orders per customer, including only customers with <strong>3 or more</strong> orders.</p>
+<p>From <code>dbo.Orders</code>, return <code>CustomerID</code> and the total number of orders per customer, including only customers with <strong>2 or more</strong> orders.</p>
 </li>
 <li>
 <p>From <code>dbo.OrderItems</code>, return <code>OrderID</code> and the <strong>total extended order value</strong><br>
 (<code>SUM(Quantity * UnitPrice)</code>), including only orders with a total value <strong>greater than $100</strong>.</p>
 </li>
 <li>
-<p>From <code>dbo.Products</code>, return <code>Category</code> and the number of products in each category, including only categories with <strong>at least 5 products</strong>.</p>
+<p>From <code>dbo.Products</code>, return <code>Category</code> and the number of products in each category, including only categories with <strong>fewer than 15 products</strong>.</p>
 </li>
 </ol>
 <blockquote>
