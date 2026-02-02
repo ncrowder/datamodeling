@@ -84,7 +84,7 @@ GROUP BY
 <p>Write a new query using the view you created to return only those rows with customers having multiple orders.  <strong>Give the query and a screenshot of the results.</strong></p>
 </li>
 <li>
-<p>Write a new query using the view you created to return only those rows with customers having multiple orders.  <strong>Give the query and a screenshot of the results.</strong>  Hint:</p>
+<p>Write a new query using the view you created to return only those rows with customers with Yahoo or Gmail email addresses.  <strong>Give the query and a screenshot of the results.</strong>  Hint:</p>
 </li>
 </ol>
 <pre><code>SELECT * from vCustomerOrders
