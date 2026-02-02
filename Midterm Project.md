@@ -62,7 +62,7 @@
 <li>Which staff members have sold to at least 3 customers?</li>
 <li>What is the average list price per brand?</li>
 <li>What is the total quantity purchased by each customer over their lifetime?</li>
-<li>Bonus: Which 5 customers (first + last) have the lowest average per order amounts?  Take into account that they pay the list minus the discount on each item they purchase.  You should use a subquery for this one.</li>
+<li>Bonus: Which 5 customers (first + last) have the lowest dollar average spent per order?  Take into account that they pay the list minus the discount on each item they purchase.  You should use a subquery for this one.  Why might we want to know this?  What actions could we possibly take using this information?</li>
 </ul>
 <p>Here’s a sample to get you started that instead finds the top 10 customers with the highest average number of items per order, requiring that they have more than 2 orders.</p>
 <pre><code>SELECT TOP 10
